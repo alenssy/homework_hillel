@@ -22,3 +22,10 @@
   color: #fff;
 }
 
+.posts__container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  align-items: baseline;
+}
+

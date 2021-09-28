@@ -1,6 +1,6 @@
-import Header from './Header'
-import Main from './Table'
-import Footer from './Footer'
+import Header from './components/Header'
+import Posts from './components/Posts'
+import Footer from './components/Footer'
 import './App.css'
 import 'antd/dist/antd.css'
 
@@ -11,7 +11,7 @@ function App() {
         <Header />
       </header>
       <main>
-        <Main />
+        <Posts />
       </main>
       <footer>
         <Footer />
